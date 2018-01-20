@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/styled-components/.*
+.*/node_modules/immutable/.*
+.*/node_modules/radium/.*
+.*/node_modules/protobufjs/src/.*
+
+[include]
+
+[libs]
+./flow-typed/.*
+
+[options]
+
+[strict]
