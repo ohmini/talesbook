@@ -1,9 +1,11 @@
 import React from 'react'
 import {storiesOf} from '@storybook/react'
 
-import {CharacterCreator} from './CharacterCreator'
+import CharacterCreator from './CharacterCreator'
 
 storiesOf('CharacterCreator', module)
-	.add('blank', () => (
-		<CharacterCreator />
-	))
+	.add('blank', () => {
+		return (
+			<CharacterCreator />
+		)
+	})
