@@ -3,7 +3,9 @@ import React, {PureComponent} from 'react'
 export class CharacterCreator extends PureComponent{
 	render(){
 		return(
-			<div></div>
+			<div className="control">
+				<input className="input" />
+			</div>
 		)
 	}
 }
